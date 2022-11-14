@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.background img{
+	height: 100%;
+	left: 0;
+	object-fit: cover;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+.sidebar{
+	background: black;
+	color: #fff;
+	opacity: 95%;
+	height: 100%;
+	right: 0;
+	top: 0;
+	width: 31%;
+	position: fixed;
+	border-left: 4px solid #fff;
+	display: flex;
+	align-items: center;
+	bottom: 0;
+	min-width: 20rem;
+	overflow-y: auto;
+	justify-content: space-between;
+	flex-direction: column;
+	}
+.lista{
+  	list-style-type: none;
+	}
+.logo{
+	padding: 0.1rem 0.5rem;
+	text-align: center;
+	}
+.logo img{
+	height: 200px;
+	width: 300px;	
+}
+form{
+	margin-bottom: 100px;
+}
+h2{
+    font-family: 'Rubik', sans-serif;
+    color: #fff;
+}
+hr{
+	color: #fff;
+}
+input[type="submit"]{
+	padding: 15px 65px;
+	font-size: 20px;
+	background-color: #363636;
+	opacity: 80%;
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	color: #fff;
+	transition: 0.5s;
+}
+input[type="submit"]:hover{
+	background-color: #8B0000;
+	padding: 20px 70px;
+	color: #fff;
+}
+.input-box input{
+	color: #000;
+	margin: 0.6rem 0;
+	padding: 0.8rem 1.2rem;
+	border: none;
+	border-radius: 10px;
+	box-shadow: 1px 1px #0000001c;
+	transition: 0.5s;
+}
+.input-box input:hover{
+	background-color: #eeeeee75;
+	color: #fff;
+}
+.forgot a{
+	text-decoration: none;
+	color: #fff;
+	cursor: pointer;
+	transition: 0.5s;
+}
+.forgot a:hover{
+	color: #8B0000;
+}
